@@ -1,0 +1,52 @@
+.works{
+    background-color: lightgreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .slider{
+        height: 600px;
+        display: flex;
+        position: absolute;
+        left: 0;
+        .container{
+            width: 100vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        .item{
+            width: 700px;
+            height:100%;
+            background-color: white;
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .left{
+                flex: 5;
+                padding: 50px;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                background-color:lightyellow;
+                justify-content: center;
+                    h2{
+                        font-size: 50px;
+                    }
+                    p{
+                        font-size: 13px;
+                    }
+        }
+            .right{
+                flex: 8;
+                height: 100%;
+                display:flex;
+                align-items: center;
+                justify-content: center;
+
+                }
+            }
+        }
+    }
+}
